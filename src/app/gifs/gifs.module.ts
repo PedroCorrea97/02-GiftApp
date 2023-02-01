@@ -14,7 +14,7 @@ import { MostrarGifsComponent } from './mostrar-gifs/mostrar-gifs.component';
     MostrarGifsComponent
   ],
   exports: [
-    GifsMainPageComponent  
+    GifsMainPageComponent,
   ],
   imports: [
     CommonModule
