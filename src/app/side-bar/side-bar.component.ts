@@ -13,5 +13,9 @@ export class SideBarComponent {
 
   constructor( private GifsService: GifsService ) {}
 
+  Buscar ( termino: string ){
+    this.GifsService.BuscarGifs( termino );
+    
+  }
 }
 
